@@ -295,6 +295,9 @@
 		<node name="sharedFrom" value="Compartido desde &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>
 	<node name="menu">
+		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
+		<node name="openPremium" value="Open FBReader Premium" toBeTranslated="true"/>
+		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
 		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="Preferències"/>
@@ -440,6 +443,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="Impedir que s'apagui la pantalla durant la càrrega">
 				<node name="summaryOn" value="Impedir que s'apagui la pantalla quan el dispositiu s'estigui carregant"/>
 				<node name="summaryOff" value="Apagar la pantalla encara que el dispositiu s'estigui carregant"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="text" value="Text">
@@ -825,13 +832,24 @@
 			</node>
 		</node>
 		<node name="menu" value="Menu" toBeTranslated="true">
-			<node name="summary" value="Configure menu items" toBeTranslated="true"/>
-			<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
-			<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
-			<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
-			<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
-			<node name="enabled" value="Activat"/>
-			<node name="disabled" value="Desactivat"/>
+			<node name="summary" value="Configure main screen menu" toBeTranslated="true"/>
+			<node name="backgroundCover" value="Use book cover as background" toBeTranslated="true">
+				<node name="summaryOn" value="Show cover in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Keep background clear" toBeTranslated="true"/>
+			</node>
+			<node name="bookMenuStatusItem" value="Status item" toBeTranslated="true">
+				<node name="summaryOn" value="Show status item in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Hide status item" toBeTranslated="true"/>
+			</node>
+			<node name="items" value="Menu items" toBeTranslated="true">
+				<node name="summary" value="Change items order" toBeTranslated="true"/>
+				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
+				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
+				<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
+				<node name="enabled" value="Enabled" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="cancelMenu" value="Menú cancelar">
 			<node name="summary" value="Back button action list" toBeTranslated="true"/>
@@ -925,6 +943,8 @@
 			<node name="removeFromFavorites" value="Treure de favorits"/>
 			<node name="markAsRead" value="Mark as read" toBeTranslated="true"/>
 			<node name="markAsUnread" value="Mark as unread" toBeTranslated="true"/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Ir a la Página"/>
 		<node name="plugin">

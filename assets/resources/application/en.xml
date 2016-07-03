@@ -289,6 +289,9 @@
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>
 	<node name="menu">
+		<node name="installPremium" value="Upgrade to Premium"/>
+		<node name="openPremium" value="Open FBReader Premium"/>
+		<node name="premium" value="FBReader Premium dialog"/>
 		<node name="whatsnew" value="What's new"/>
 		<node name="openStartScreen" value="Start screen"/>
 		<node name="preferences" value="Settings"/>
@@ -434,6 +437,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="Prevent screen from sleeping while charging">
 				<node name="summaryOn" value="Prevent screen from sleeping while device is in charging mode"/>
 				<node name="summaryOff" value="Allow screen to sleep while device is in charging mode"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu"/>
 			</node>
 		</node>
 		<node name="text" value="Text">
@@ -819,13 +826,24 @@
 			</node>
 		</node>
 		<node name="menu" value="Menu">
-			<node name="summary" value="Configure menu items"/>
-			<node name="bookMenuUpperSection" value="Book menu (upper section)"/>
-			<node name="bookMenuLowerSection" value="Book menu (lower section)"/>
-			<node name="toolbarOrMainMenu" value="Toolbar or main menu"/>
-			<node name="mainMenu" value="Main menu"/>
-			<node name="enabled" value="Enabled"/>
-			<node name="disabled" value="Disabled"/>
+			<node name="summary" value="Configure main screen menu"/>
+			<node name="backgroundCover" value="Use book cover as background">
+				<node name="summaryOn" value="Show cover in the book menu"/>
+				<node name="summaryOff" value="Keep background clear"/>
+			</node>
+			<node name="bookMenuStatusItem" value="Status item">
+				<node name="summaryOn" value="Show status item in the book menu"/>
+				<node name="summaryOff" value="Hide status item"/>
+			</node>
+			<node name="items" value="Menu items">
+				<node name="summary" value="Change items order"/>
+				<node name="bookMenuUpperSection" value="Book menu (upper section)"/>
+				<node name="bookMenuLowerSection" value="Book menu (lower section)"/>
+				<node name="toolbarOrMainMenu" value="Toolbar or main menu"/>
+				<node name="mainMenu" value="Main menu"/>
+				<node name="enabled" value="Enabled"/>
+				<node name="disabled" value="Disabled"/>
+			</node>
 		</node>
 		<node name="cancelMenu" value="Cancel menu">
 			<node name="summary" value="Back button action list"/>
@@ -919,6 +937,8 @@
 			<node name="removeFromFavorites" value="Remove from favourites"/>
 			<node name="markAsRead" value="Mark as read"/>
 			<node name="markAsUnread" value="Mark as unread"/>
+			<node name="plugin" value="Plugin"/>
+			<node name="premium" value="Premium"/>
 		</node>
 		<node name="gotoPage" value="Go to page"/>
 		<node name="plugin">

@@ -280,6 +280,9 @@
 		<node name="sharedFrom" value="Được chia sẻ từ &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>
 	<node name="menu">
+		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
+		<node name="openPremium" value="Open FBReader Premium" toBeTranslated="true"/>
+		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
 		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="Cài đặt"/>
@@ -425,6 +428,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="Ngăn màn hình tắt trong khi sạc">
 				<node name="summaryOn" value="Ngăn màn hình tắt nếu máy đang sạc"/>
 				<node name="summaryOff" value="Tắt màn hình ngay cả khi máy đang sạc"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="text" value="Chỉnh chữ">
@@ -810,13 +817,24 @@
 			</node>
 		</node>
 		<node name="menu" value="Menu" toBeTranslated="true">
-			<node name="summary" value="Configure menu items" toBeTranslated="true"/>
-			<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
-			<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
-			<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
-			<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
-			<node name="enabled" value="Có dùng"/>
-			<node name="disabled" value="Không dùng"/>
+			<node name="summary" value="Configure main screen menu" toBeTranslated="true"/>
+			<node name="backgroundCover" value="Use book cover as background" toBeTranslated="true">
+				<node name="summaryOn" value="Show cover in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Keep background clear" toBeTranslated="true"/>
+			</node>
+			<node name="bookMenuStatusItem" value="Status item" toBeTranslated="true">
+				<node name="summaryOn" value="Show status item in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Hide status item" toBeTranslated="true"/>
+			</node>
+			<node name="items" value="Menu items" toBeTranslated="true">
+				<node name="summary" value="Change items order" toBeTranslated="true"/>
+				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
+				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
+				<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
+				<node name="enabled" value="Enabled" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="cancelMenu" value="Danh mục lệnh Hủy">
 			<node name="summary" value="Các lệnh trong Lệnh Hủy"/>
@@ -910,6 +928,8 @@
 			<node name="removeFromFavorites" value="Xóa khỏi yêu thích"/>
 			<node name="markAsRead" value="Đánh dấu đã đọc"/>
 			<node name="markAsUnread" value="Đánh dấu chưa đọc"/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Đến trang"/>
 		<node name="plugin">

@@ -294,6 +294,9 @@
 		<node name="sharedFrom" value="Отправлено из &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>
 	<node name="menu">
+		<node name="installPremium" value="Установить FBReader Premium"/>
+		<node name="openPremium" value="Открыть FBReader Premium"/>
+		<node name="premium" value="FBReader Premium"/>
 		<node name="whatsnew" value="Что нового"/>
 		<node name="openStartScreen" value="Стартовый экран"/>
 		<node name="preferences" value="Настройки"/>
@@ -439,6 +442,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="Не выключать экран, если батарея заряжается">
 				<node name="summaryOn" value="Никогда не выключать экран, если чтение происходит в режиме зарядки"/>
 				<node name="summaryOff" value="Выключать экран даже в режиме зарядки"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Включить жест для левого меню">
+				<node name="summaryOn" value="Движение пальцем от левого края к центру экрана открывает меню книги"/>
+				<node name="summaryOff" value="Меню книги открывается только нажатием на кнопку в левом верхнем углу экрана"/>
 			</node>
 		</node>
 		<node name="text" value="Текст">
@@ -824,13 +831,24 @@
 			</node>
 		</node>
 		<node name="menu" value="Меню">
-			<node name="summary" value="Порядок пунктов меню"/>
-			<node name="bookMenuUpperSection" value="Меню книги (верхняя часть)"/>
-			<node name="bookMenuLowerSection" value="Меню книги (нижняя часть)"/>
-			<node name="toolbarOrMainMenu" value="Тулбар или главное меню"/>
-			<node name="mainMenu" value="Главное меню"/>
-			<node name="enabled" value="Включены"/>
-			<node name="disabled" value="Выключены"/>
+			<node name="summary" value="Настройки меню главного экрана"/>
+			<node name="backgroundCover" value="Использовать обложку в качестве фона">
+				<node name="summaryOn" value="Показывать обложку в меню книги"/>
+				<node name="summaryOff" value="Выключить фон в меню"/>
+			</node>
+			<node name="bookMenuStatusItem" value="Status item" toBeTranslated="true">
+				<node name="summaryOn" value="Show status item in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Hide status item" toBeTranslated="true"/>
+			</node>
+			<node name="items" value="Пункты меню">
+				<node name="summary" value="Изменить порядок пунктов"/>
+				<node name="bookMenuUpperSection" value="Меню книги (верхняя часть)"/>
+				<node name="bookMenuLowerSection" value="Меню книги (нижняя часть)"/>
+				<node name="toolbarOrMainMenu" value="Тулбар или главное меню"/>
+				<node name="mainMenu" value="Главное меню"/>
+				<node name="enabled" value="Включены"/>
+				<node name="disabled" value="Выключены"/>
+			</node>
 		</node>
 		<node name="cancelMenu" value="Меню выхода из программы">
 			<node name="summary" value="Список действий при нажатии на кнопку 'Назад'"/>
@@ -924,6 +942,8 @@
 			<node name="removeFromFavorites" value="Убрать из избранного"/>
 			<node name="markAsRead" value="Пометить как прочтённое"/>
 			<node name="markAsUnread" value="Пометить как непрочтённое"/>
+			<node name="plugin" value="Модуль"/>
+			<node name="premium" value="Premium"/>
 		</node>
 		<node name="gotoPage" value="На страницу"/>
 		<node name="plugin">
@@ -1097,7 +1117,7 @@
 			</node>
 			<node name="permissionDenied" value="Нет доступа"/>
 		</node>
-		<node name="missingPlugin" value="Отсутсвует модуль">
+		<node name="missingPlugin" value="Отсутствует модуль">
 			<node name="message" value="Модуль для чтения файлов %s не установлен. Установить прямо сейчас?"/>
 		</node>
 		<node name="licensing" value="Нет лицензии">

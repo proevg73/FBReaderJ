@@ -288,6 +288,9 @@
 		<node name="sharedFrom" value="به اشتراک گذاري شده توسط &lt;a href=&quot;https://fbreader.org/&quot;&gt;parsireader&lt;/a&gt;"/>
 	</node>
 	<node name="menu">
+		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
+		<node name="openPremium" value="Open FBReader Premium" toBeTranslated="true"/>
+		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
 		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
 		<node name="openStartScreen" value="صفحه شروع"/>
 		<node name="preferences" value="تنظیمات"/>
@@ -433,6 +436,10 @@
 			<node name="dontTurnScreenOffDuringCharging" value="در حين شارژ صفحه نمايش به خواب نرود">
 				<node name="summaryOn" value="وقتي دستگاه در حالت خواب است صفحه نمايش به خواب نرود"/>
 				<node name="summaryOff" value="حتی در حالت شارژ هم صفحه نمایش خاموش باشد"/>
+			</node>
+			<node name="enableBookMenuSwipeGesture" value="Enable swipe gesture for the book menu" toBeTranslated="true">
+				<node name="summaryOn" value="Swipe in from the left edge to open book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Use three-line (“hamburger”) button to open book menu" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="text" value="متن">
@@ -818,13 +825,24 @@
 			</node>
 		</node>
 		<node name="menu" value="Menu" toBeTranslated="true">
-			<node name="summary" value="Configure menu items" toBeTranslated="true"/>
-			<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
-			<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
-			<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
-			<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
-			<node name="enabled" value="فعال شد"/>
-			<node name="disabled" value="غیرفعال شد"/>
+			<node name="summary" value="Configure main screen menu" toBeTranslated="true"/>
+			<node name="backgroundCover" value="Use book cover as background" toBeTranslated="true">
+				<node name="summaryOn" value="Show cover in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Keep background clear" toBeTranslated="true"/>
+			</node>
+			<node name="bookMenuStatusItem" value="Status item" toBeTranslated="true">
+				<node name="summaryOn" value="Show status item in the book menu" toBeTranslated="true"/>
+				<node name="summaryOff" value="Hide status item" toBeTranslated="true"/>
+			</node>
+			<node name="items" value="Menu items" toBeTranslated="true">
+				<node name="summary" value="Change items order" toBeTranslated="true"/>
+				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
+				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
+				<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
+				<node name="enabled" value="Enabled" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="cancelMenu" value="لغو منو">
 			<node name="summary" value="ليست اقدام دكمه برگشت"/>
@@ -918,6 +936,8 @@
 			<node name="removeFromFavorites" value="پاك كردن از علاقمندي"/>
 			<node name="markAsRead" value="علامت بعنوان خوانده شده"/>
 			<node name="markAsUnread" value="علامت بعنوان خوانده نشده "/>
+			<node name="plugin" value="Plugin" toBeTranslated="true"/>
+			<node name="premium" value="Premium" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Go to page" toBeTranslated="true"/>
 		<node name="plugin">
